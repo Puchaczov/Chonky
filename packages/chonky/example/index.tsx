@@ -1,12 +1,13 @@
-import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { FullFileBrowser } from '../.';
+import { FullFileBrowser, setChonkyDefaults } from '../.';
+import { ChonkyIconFA } from 'chonky-icon-fontawesome';
 
 const App = () => {
+  setChonkyDefaults({ iconComponent: ChonkyIconFA });
   return (
     <div style={{ height: 400 }}>
-      <FullFileBrowser />
+      <FullFileBrowser  />
     </div>
   );
 };
