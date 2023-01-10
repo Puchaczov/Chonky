@@ -1,4 +1,4 @@
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import { ChonkyActions, ChonkyFileActionData } from 'chonky';
 import Noty from 'noty';
 import 'noty/lib/noty.css';

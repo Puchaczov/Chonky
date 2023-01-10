@@ -29,7 +29,7 @@ export const FileListEmpty: React.FC<FileListEmptyProps> = props => {
     const intl = useIntl();
     const emptyString = intl.formatMessage({
         id: getI18nId(I18nNamespace.FileList, 'nothingToShow'),
-        defaultMessage: 'Nothing to show',
+        defaultMessage: 'Nothing to showdasdsad',
     });
 
     return (

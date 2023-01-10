@@ -84,9 +84,8 @@ export const defaultFormatters: ChonkyFormatters = {
         const safeModDate = FileHelper.getModDate(file);
         if (safeModDate) {
             return intl.formatDate(safeModDate, {
-                dateStyle: 'medium',
                 timeStyle: 'short',
-            });
+            } as any);
         } else {
             return null;
         }

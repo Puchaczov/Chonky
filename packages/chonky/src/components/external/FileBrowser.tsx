@@ -1,7 +1,7 @@
 import {
-    createMuiTheme,
+    createTheme as createMuiTheme,
     ThemeProvider as MuiThemeProvider,
-} from '@material-ui/core/styles';
+} from '@mui/material/styles';
 import merge from 'deepmerge';
 import React, { ReactNode, useMemo } from 'react';
 import { DndProvider } from 'react-dnd';
@@ -66,7 +66,7 @@ export const FileBrowser = React.forwardRef<
     const isMobileBreakpoint = useIsMobileBreakpoint();
     const theme = useMemo(() => {
         const muiTheme = createMuiTheme({
-            palette: { type: darkMode ? 'dark' : 'light' },
+            palette: { mode: darkMode ? 'dark' : 'light' },
         });
         const combinedTheme = merge(
             muiTheme,

@@ -4,13 +4,13 @@ import { fileMap, defineFileAction, ChonkyIconName, FullFileBrowser, setChonkyDe
 import { ChonkyIconFA } from 'chonky-icon-fontawesome';
 import styled from 'styled-components';
 
-import FormControl from '@material-ui/core/FormControl';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormGroup from '@material-ui/core/FormGroup';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import FormLabel from '@material-ui/core/FormLabel';
-import Paper from '@material-ui/core/Paper';
-import Switch from '@material-ui/core/Switch';
+import FormControl from '@mui/material/FormControl';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormGroup from '@mui/material/FormGroup';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormLabel from '@mui/material/FormLabel';
+import Paper from '@mui/material/Paper';
+import Switch from '@mui/material/Switch';
 
 import DemoFsMap from './demo.fs_map.json';
 
