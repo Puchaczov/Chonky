@@ -18,8 +18,6 @@
     "**/immer": "8.0.4"
   },
   "dependencies": {
-    "chonky": "^2.3.2",
-    "chonky-icon-fontawesome": "^2.3.2",
     "@emotion/react": "11.5.0",
     "@emotion/styled": "11.3.0"
   }
